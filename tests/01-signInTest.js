@@ -1,4 +1,4 @@
-module.exports ={
+module.exports = {
   before: function(browser){
     browser.url(browser.globals.magentoURI);
   },
