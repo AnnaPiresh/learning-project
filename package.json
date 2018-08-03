@@ -9,10 +9,7 @@
     "url": "git+https://github.com/AnnaPiresh/learning-project.git"
   },
   "scripts": {
-    "start": "nightwatch"
-  },
-  "bin": {
-    "e2e": "./node_modules/nightwatch/bin/nightwatch"
+    "test": "nightwatch"
   },
   "dependencies": {
     "nightwatch": "0.9.19"
