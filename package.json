@@ -6,7 +6,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/AnnaPiresh/learning-project.git"
   },
   "scripts": {
     "start": "nightwatch"
@@ -15,8 +15,6 @@
     "e2e": "./node_modules/nightwatch/bin/nightwatch"
   },
   "dependencies": {
-    "casual": "1.5.19",
-    "colors": "^1.3.0",
     "nightwatch": "0.9.19"
   },
   "directories": {
@@ -26,5 +24,10 @@
   "keywords": [
     "e2e-tests",
     "nightwatch"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/AnnaPiresh/learning-project/issues"
+  },
+  "homepage": "https://github.com/AnnaPiresh/learning-project#readme",
+  "main": "globals_path.js"
 }
