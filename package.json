@@ -19,7 +19,6 @@
     "colors": "^1.3.0",
     "nightwatch": "0.9.19"
   },
-  "main": "globals_path.js",
   "directories": {
     "test": "tests"
   },
