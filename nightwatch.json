@@ -36,7 +36,10 @@
         "javascriptEnabled" : true,
         "acceptSslCerts" : true,
         "chromeOptions" : {
-          "args" : ["--no-sandbox"]
+          "args" : [
+            "headless",
+            "ignore-certificate-errors",
+            "--no-sandbox"]
         }
       }
     },
