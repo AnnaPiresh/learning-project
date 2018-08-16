@@ -18,22 +18,23 @@ Learning project to understand the basics of Nightwatch.js framework
 5. Install it on your PC: http://barancev.github.io/how-to-install-java-on-windows/
 6. Open command line and verify installation running ```java -version``` command
 7. Clone this project to your local machine
-8. Download latest Selenium Server JAR from: http://selenium-release.storage.googleapis.com/index.html
-9. Put it into *selenium* folder
-10. Download latest Chrome Driver from: https://sites.google.com/a/chromium.org/chromedriver/downloads
-11. Un-zip it and put into *selenium* folder
+8. Download this docker version: https://docs.docker.com/docker-for-windows/release-notes/#docker-community-edition-18030-ce-win59-2018-03-26
+9. Enable Hyper-V if available (https://docs.microsoft.com/ru-ru/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v). If not install Virtual box
+10. Run Docker
+11. Create a virtual machine by docker manuals:
+https://docs.docker.com/machine/drivers/hyper-v/
+https://docs.docker.com/machine/get-started/#prerequisite-information
+12. Make sure virtual machine is running by using command ```docker-machine ls```
+13. Run a command line with admin rights
+14. Navigate to a directory with project
+15. Run ```docker-compose up``` command
+16. Check whether Selenium server is running on port 4444
 
 ## Running the tests
 
 1. Open command line and navigate to a folder with project
-2. Run ```npm install``` to install all needed node modules
-3. Switch to `selenium` folder
-4. Start Selenium Server by executing command ```java -jar selenium-server-standalone-{VERSION}.jar```
-5. Check the message that Selenium Server is running on port 4444
-6. Open new command line window without closing window with running selenium server
-7. Navigate to a folder with project
-8. Run a command ```npm test```
-9. If everything is installed right a new chrome window with running tests should be opened
+2. Run a command ```npm test```
+3. If everything is installed right a new chrome window with running tests should be opened
 
 ## Writing new tests
 
