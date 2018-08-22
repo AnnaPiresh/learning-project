@@ -2,7 +2,7 @@ module.exports = {
   before: function(browser){
     browser.url(browser.globals.magentoURI);
   },
-
+// adding of test comment for git homework
   after: function (browser) {
     browser.end();
   },
