@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.9.1
+      - image: selenium/standalone-chrome
+    steps:
+      - checkout
+      - run: npm install
+      - run: sudo npm link
+      - run: npm test
+      - store_artifacts:
+          path: ./screenshots
+      - store_artifacts:
+          path: ./reports
