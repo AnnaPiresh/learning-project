@@ -11,6 +11,7 @@
     "server_path" : "",
     "log_path" : "",
     "port" : 4444,
+    "port" : 4444,
     "cli_args" : {
       "webdriver.chrome.driver" : "",
       "webdriver.gecko.driver" : "",
